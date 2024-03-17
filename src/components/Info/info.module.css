@@ -1,0 +1,13 @@
+.info {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.info-temp,
+.info-feels,
+.info-hum {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	text-align: center;
+}
